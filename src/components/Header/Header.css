@@ -1,0 +1,43 @@
+.header {
+  width: 100vw;
+  height: 120vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin-top: -400px;
+}
+
+.lakeFull {
+  position: absolute;
+  inset: 0px;
+  z-index: 0;
+}
+
+.lakeBottom {
+  position: absolute;
+  inset: 0px;
+  z-index: 20;
+}
+
+.bar {
+  width: 100vw;
+  height: 400px;
+  background: rgb(36, 36, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 36, 36, 1) 0%,
+    rgba(36, 36, 36, 0) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 30;
+}
